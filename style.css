@@ -12,6 +12,10 @@
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
+      html {
+        scroll-behavior: smooth;
+      }
+
    .w-layout-grid {
      display: -ms-grid;
      display: grid;
