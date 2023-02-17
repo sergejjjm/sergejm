@@ -1069,9 +1069,10 @@
      color: #185a9d;
      font-size: 19px;
      line-height: 1.4;
-     text-align: center;
+     text-align: left;
      text-decoration: none;
      display: inline;
+      
    }
    
    .contact-email:hover {
