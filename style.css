@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 04 2023 10:55:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 06 2023 07:13:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12,10 +12,10 @@
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
-
-      .w-webflow-badge {
-        display: none !important;
-      }
+      
+    .w-webflow-badge {
+        display:none !important;
+        }
 
    .w-layout-grid {
      display: -ms-grid;
@@ -725,6 +725,9 @@
    .projects-image {
      width: 595px;
      height: 100%;
+     border-style: solid;
+     border-width: 5px;
+     border-color: #43cea2;
      -o-object-fit: cover;
      object-fit: cover;
    }
@@ -770,8 +773,9 @@
      width: 100%;
      height: 100%;
      border-style: solid;
-     border-width: 1px;
+     border-width: 3px;
      border-color: #185a9d;
+     border-radius: 5px;
      -o-object-fit: cover;
      object-fit: cover;
    }
@@ -845,7 +849,8 @@
      border-style: solid;
      border-width: 1px;
      border-color: rgba(67, 206, 162, 0.6);
-     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+     border-radius: 5px;
+     box-shadow: 0 1px 10px 0 #43cea2;
      -o-object-fit: cover;
      object-fit: cover;
    }
@@ -898,6 +903,7 @@
    
    .other-projects-link {
      overflow: hidden;
+     border-radius: 5px;
      text-decoration: none;
    }
    
@@ -1054,7 +1060,7 @@
      margin-top: 100px;
      margin-bottom: 0px;
      font-family: Lato, sans-serif;
-     color: rgba(0, 0, 0, 0.6);
+     color: #43cea2;
      font-size: 19px;
      line-height: 1.4;
      text-align: left;
@@ -2271,6 +2277,7 @@
      }
    
      .projects-main-paragraph {
+       margin-top: 20px;
        margin-bottom: 20px;
        font-size: 16px;
        line-height: 1.4;
